@@ -34,6 +34,11 @@ github_username:  jekyll
 plugins:
   - jekyll/vite
   - jekyll-feed
+  # uncomment for i18n support
+  # - jekyll-multiple-languages-plugin
+
+# uncomment for i18n support
+# languages: ["en", "es"]
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -64,3 +69,5 @@ exclude:
   - vendor/ruby/
   - Rakefile
   - README.md
+  # comment out for i18n support
+  - _i18n

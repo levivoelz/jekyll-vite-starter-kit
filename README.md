@@ -43,9 +43,11 @@ npm start
 or if your prefered flavor is Ruby
 
 ```sh
-rake start
+bundle exec rake start
 ```
 
 ### Documentation
 
 For additional info on how to work with jekyll-vite please review the [ jekyll-vite documentation](https://github.com/ElMassimo/jekyll-vite)
+
+i18n is also supported, for more info on how to work with i18n please review the [jekyll-multiple-languages-plugin documentation](https://github.com/kurtsson/jekyll-multiple-languages-plugin)

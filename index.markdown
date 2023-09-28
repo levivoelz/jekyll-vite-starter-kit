@@ -5,4 +5,6 @@
 layout: default
 ---
 
-<div id='hi'>Hi</div>
+<div id='hi'>when js enabled this sentance will not be here</div>
+<!-- i18n below -->
+{% comment %} <p>{% t home.title %}</p> {% endcomment %}
